@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Your portfolio - Проект";
+}
+@using MySql.Data.MySqlClient;
+@model MyViewModel;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/reset.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a asp-action="Index_login" asp-controller="Home" class="logo"><strong>Your</strong> portfolio</a>
+                <button class="dark-mode-btn">
+                    <img src="~/images/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="~/images/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a asp-action="Index_login" asp-controller="Home" class="nav-list__link">Главная</a></li>
+                    <li class="nav-list__item"><a asp-action="Projects_login" asp-controller="Home" class="nav-list__link nav-list__link--active">Проекты</a></li>
+                    <li class="nav-list__item"><a asp-action="Kabinet" asp-controller="Home" class="nav-list__link">Кабинет</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container">
+            @{
+                MySqlConnection connection = new MySqlConnection("server=localhost;port=8889;username=root;password=root;database=portfolio");
+                connection.Open();
+                var id = kursovaya_bd.Controllers.HomeController.IdProjects;
+                string query = $"select projects.name_project, projects.skills, projects.image_path, users_networks.url from projects " +
+                    $" join users_networks on projects.id_project=users_networks.id_project where projects.id_project={id};";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    string name_project = reader.GetString(0);
+                    string skills = reader.GetString(1);
+                    string image_path = reader.GetString(2);
+                    string url = reader.GetString(3);
+
+                    <div class="project-details">
+                        <h1 class="title-1">@name_project</h1>
+                        <img src="@image_path" alt="" class="project-details__cover">
+                        <div class="project-details__desc">
+                            <p>Skills: @skills</p>
+                        </div>
+                        <a href="@url" class="btn-outline">
+                            <img src="~/images/icons/gitHub-black.svg" alt="">
+                            GitHub repo
+                        </a>
+                    </div>
+                }
+
+                reader.Close();
+                connection.Close();
+            }
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://vk.com"><img src="~/images/icons/vk.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://www.instagram.com"><img src="~/images/icons/instagram.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://twitter.com/"><img src="~/images/icons/twitter.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://github.com"><img src="~/images/icons/gitHub.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://ru.linkedin.com"><img src="~/images/icons/linkedIn.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2022 frontend-dev.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/js/main.js"></script>
+
+</body>
+</html>
+

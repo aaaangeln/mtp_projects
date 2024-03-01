@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Your portfolio - Проекты";
+}
+@using MySql.Data.MySqlClient;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css//main.css">
+    <style>
+        .btn-submit {
+            border-radius: 5px;
+            background: rgba(255,116,0,0.85);
+            border: 2px solid #ff7400;
+        }
+
+            .btn-submit:hover {
+                background: rgba(255,116,0,1);
+            }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a asp-action="Index_login" asp-controller="Home" class="logo"><strong>Your</strong> portfolio</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a asp-action="Index_login" asp-controller="Home" class="nav-list__link">Главная</a></li>
+                    <li class="nav-list__item"><a asp-action="Projects_login" asp-controller="Home" class="nav-list__link">Проекты</a></li>
+                    <li class="nav-list__item"><a asp-action="Kabinet" asp-controller="Home" class="nav-list__link">Кабинет</a></li>
+                </ul>
+                <button class="dark-mode-btn">
+                    <img src="~/images/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="~/images/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container">
+            <div id="block" class="block">
+                <h2 class="title-1">Проекты</h2>
+                <ul class="projects">
+
+                    @{
+                        MySqlConnection connection = new MySqlConnection("server=localhost;port=8889;username=root;password=root;database=portfolio");
+                        connection.Open();
+                        string query = $"select id_project, name_project, image_path from projects where email='{kursovaya_bd.Controllers.HomeController.userMail}';";
+                        MySqlCommand command = new MySqlCommand(query, connection);
+                        MySqlDataReader reader = command.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            string id_project = reader.GetString(0);
+                            string name_project = reader.GetString(1);
+                            string image_path = reader.GetString(2);
+
+                            <li class="project" style="max-width: 345px;">
+                                <form asp-controller="Home" asp-action="Projects_login" method="post">
+                                    <input type="text" name="id_project" value="@id_project" style="display: none;" />
+                                    <button type="submit" style="background-color: transparent; border: none;">
+                                        <img src="@image_path" alt="Project img" class="project__img">
+                                        <h3 class="project__title">@name_project</h3>
+                                    </button>
+                                </form>
+                            </li>
+
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="#!"><img src="~/images/icons/vk.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="#!"><img src="~/images/icons/instagram.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="#!"><img src="~/images/icons/twitter.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="#!"><img src="~/images/icons/gitHub.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="#!"><img src="~/images/icons/linkedIn.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2022 frontend-dev.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/obj/Debug/net7.0/scopedcss/projectbundle/kursovaya_bd.bundle.scp.css",
+      "PackagePath": "staticwebassets/kursovaya_bd.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/css/dop.css",
+      "PackagePath": "staticwebassets/css/dop.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/css/login.css",
+      "PackagePath": "staticwebassets/css/login.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/1.png",
+      "PackagePath": "staticwebassets/images/1.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/2.png",
+      "PackagePath": "staticwebassets/images/2.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/200099300943_158512.jpeg",
+      "PackagePath": "staticwebassets/images/200099300943_158512.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/3.png",
+      "PackagePath": "staticwebassets/images/3.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG-7658467b13c391dc0c8e7c4f2547c095-V.jpeg",
+      "PackagePath": "staticwebassets/images/IMG-7658467b13c391dc0c8e7c4f2547c095-V.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_0347.jpeg",
+      "PackagePath": "staticwebassets/images/IMG_0347.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_1642.jpeg",
+      "PackagePath": "staticwebassets/images/IMG_1642.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_1643.jpeg",
+      "PackagePath": "staticwebassets/images/IMG_1643.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_1644.jpeg",
+      "PackagePath": "staticwebassets/images/IMG_1644.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_1645.jpeg",
+      "PackagePath": "staticwebassets/images/IMG_1645.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_20200918_211806.jpeg",
+      "PackagePath": "staticwebassets/images/IMG_20200918_211806.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_2273.png",
+      "PackagePath": "staticwebassets/images/IMG_2273.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/IMG_3766.png",
+      "PackagePath": "staticwebassets/images/IMG_3766.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/RTFohEiZQBU.jpeg",
+      "PackagePath": "staticwebassets/images/RTFohEiZQBU.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/Rectangle14.png",
+      "PackagePath": "staticwebassets/images/Rectangle14.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/free-png.ru-357-232x340.png",
+      "PackagePath": "staticwebassets/images/free-png.ru-357-232x340.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/header-bg.png",
+      "PackagePath": "staticwebassets/images/header-bg.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icon.svg",
+      "PackagePath": "staticwebassets/images/icon.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icon2.svg",
+      "PackagePath": "staticwebassets/images/icon2.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/gitHub-black.svg",
+      "PackagePath": "staticwebassets/images/icons/gitHub-black.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/gitHub.svg",
+      "PackagePath": "staticwebassets/images/icons/gitHub.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/instagram.svg",
+      "PackagePath": "staticwebassets/images/icons/instagram.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/linkedIn.svg",
+      "PackagePath": "staticwebassets/images/icons/linkedIn.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/moon.svg",
+      "PackagePath": "staticwebassets/images/icons/moon.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/sun.svg",
+      "PackagePath": "staticwebassets/images/icons/sun.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/twitter.svg",
+      "PackagePath": "staticwebassets/images/icons/twitter.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/icons/vk.svg",
+      "PackagePath": "staticwebassets/images/icons/vk.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-008331fdc4fdd6946b58974a40c1a596.jpg",
+      "PackagePath": "staticwebassets/images/original-008331fdc4fdd6946b58974a40c1a596.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-05096039b25b92c70917fb5916a0cf9f.jpg",
+      "PackagePath": "staticwebassets/images/original-05096039b25b92c70917fb5916a0cf9f.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-606473df4c480676963e4787faa30488.png",
+      "PackagePath": "staticwebassets/images/original-606473df4c480676963e4787faa30488.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-761aaff44ceaf1814df64e64468efc7f.png",
+      "PackagePath": "staticwebassets/images/original-761aaff44ceaf1814df64e64468efc7f.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-85f56aec532dff95b3b83111c9b080e5.jpg",
+      "PackagePath": "staticwebassets/images/original-85f56aec532dff95b3b83111c9b080e5.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-a4d82c0f8db0c2185fb69374a0dbf79d.jpg",
+      "PackagePath": "staticwebassets/images/original-a4d82c0f8db0c2185fb69374a0dbf79d.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-c32111c3f058796c6c70fce19c0e0801.png",
+      "PackagePath": "staticwebassets/images/original-c32111c3f058796c6c70fce19c0e0801.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/original-fac05990b138739b967648c7ecbd4d08.png",
+      "PackagePath": "staticwebassets/images/original-fac05990b138739b967648c7ecbd4d08.png"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/01-big.jpg",
+      "PackagePath": "staticwebassets/images/projects/01-big.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/01.jpg",
+      "PackagePath": "staticwebassets/images/projects/01.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/02-big.jpg",
+      "PackagePath": "staticwebassets/images/projects/02-big.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/02.jpg",
+      "PackagePath": "staticwebassets/images/projects/02.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/03-big.jpg",
+      "PackagePath": "staticwebassets/images/projects/03-big.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/03.jpg",
+      "PackagePath": "staticwebassets/images/projects/03.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/04-big.jpg",
+      "PackagePath": "staticwebassets/images/projects/04-big.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/04.jpg",
+      "PackagePath": "staticwebassets/images/projects/04.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/05-big.jpg",
+      "PackagePath": "staticwebassets/images/projects/05-big.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/05.jpg",
+      "PackagePath": "staticwebassets/images/projects/05.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/06-big.jpg",
+      "PackagePath": "staticwebassets/images/projects/06-big.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/projects/06.jpg",
+      "PackagePath": "staticwebassets/images/projects/06.jpg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/sort.svg",
+      "PackagePath": "staticwebassets/images/sort.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/sort_alphabetical_ascending_icon_135171.svg",
+      "PackagePath": "staticwebassets/images/sort_alphabetical_ascending_icon_135171.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/sort_alphabetical_descending_icon_135170.svg",
+      "PackagePath": "staticwebassets/images/sort_alphabetical_descending_icon_135170.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/sort_rost.svg",
+      "PackagePath": "staticwebassets/images/sort_rost.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/sort_ub.svg",
+      "PackagePath": "staticwebassets/images/sort_ub.svg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/images/spanchbob.jpeg",
+      "PackagePath": "staticwebassets/images/spanchbob.jpeg"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/anastysha/Projects/kursovaya_bd/kursovaya_bd/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.kursovaya_bd.props",
+      "PackagePath": "build\\kursovaya_bd.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.kursovaya_bd.props",
+      "PackagePath": "buildMultiTargeting\\kursovaya_bd.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.kursovaya_bd.props",
+      "PackagePath": "buildTransitive\\kursovaya_bd.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.kursovaya_bd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

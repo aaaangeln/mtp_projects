@@ -1,0 +1,65 @@
+.nav-list {
+    list-style-type: none;
+}
+
+.dark-mode-btn {
+    border: none;
+}
+
+.nav-list {
+    margin-top: 15px;
+}
+
+.nav-list__link:hover {
+    color: #FF7400;
+}
+
+.logo:hover {
+    color: #ff7400;
+}
+
+.header {
+    padding: 10px 0;
+    min-height: 700px;
+}
+.footer {
+    padding: 40px 0 50px;
+    border-top: 2px solid #ff7400;
+}
+
+.social {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.copyright {
+    margin-right: 50px;
+}
+
+.projects {
+    list-style-type: none;
+}
+
+.project {
+    max-width: 330px;
+}
+
+.project__img {
+    max-width: 330px;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.sort__item{
+    color: #ff7400;
+}
+.btn-save {
+    border-radius: 5px;
+    border: 2px solid #ff7400;
+    background: rgba(255,116,0,0.6);
+}
+    .btn-save:hover {
+        background: rgba(255,116,0,1);
+    }
+

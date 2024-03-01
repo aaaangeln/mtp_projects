@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Your portfolio - Главная";
+}
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css//main.css">
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-row">
+                    <a asp-action="Index" asp-controller="Home" class="logo"><strong>Your</strong> portfolio</a>
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a asp-action="Index" asp-controller="Home" class="nav-list__link nav-list__link--active">Главная</a></li>
+                        <li class="nav-list__item"><a asp-action="Projects" asp-controller="Home" class="nav-list__link">Проекты</a></li>
+                        <li class="nav-list__item"><a asp-action="Auth" asp-controller="Home" class="nav-list__link">Войти в личный кабинет</a></li>
+                    </ul>
+                    <button class="dark-mode-btn">
+                        <img src="~/images/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                        <img src="~/images/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <header class="header">
+            <div class="header__wrapper">
+                <h1 class="header__title">
+                    <strong>Привет, меня зовут <em>Your portfolio</em></strong><br>
+                    я помогу сделать тебе твое портфолио
+                </h1>
+                <div class="header__text">
+                    <p>сюда ты сможешь загружать свое портфолио для просмотра его другими пользователями</p>
+                </div>
+            </div>
+        </header>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <ul class="social">
+                        <li class="social__item"><a href="https://vk.com"><img src="~/images/icons/vk.svg" alt="Link"></a></li>
+                        <li class="social__item"><a href="https://www.instagram.com"><img src="~/images/icons/instagram.svg" alt="Link"></a></li>
+                        <li class="social__item"><a href="https://twitter.com/"><img src="~/images/icons/twitter.svg" alt="Link"></a></li>
+                        <li class="social__item"><a href="https://github.com"><img src="~/images/icons/gitHub.svg" alt="Link"></a></li>
+                        <li class="social__item"><a href="https://ru.linkedin.com"><img src="~/images/icons/linkedIn.svg" alt="Link"></a></li>
+                    </ul>
+                    <div class="copyright">
+                        <p>© 2022 frontend-dev.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="~/js/main.js"></script>
+
+    </body>
+    </html>

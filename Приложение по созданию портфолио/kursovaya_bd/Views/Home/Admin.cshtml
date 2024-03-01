@@ -1,0 +1,88 @@
+﻿@using MySql.Data.MySqlClient;
+@{
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Таблица пользователей</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmDeleteModalLabel">Подтверждение удаления</h5>
+                </div>
+                <div class="modal-body">
+                    Вы уверены, что хотите удалить пользователя?
+                </div>
+                <div class="modal-footer">
+                    <form method="post" asp-controller="Home" asp-action="Admin">
+                        <input type="hidden" name="email" id="emailToDelete">
+                        <input type="submit" class="btn btn-danger" value="Да">
+                    </form>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Нет</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="btn btn-danger" asp-action="Auth" asp-controller="Home">Выйти из аккаунта</a>
+    <h1>Администратор</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered" style="overflow-y: scroll">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Имя</th>
+                    <th>Специальность</th>
+                    <th>Кол-во проектов</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    MySqlConnection connection = new MySqlConnection("server=localhost;port=8889;username=root;password=root;database=portfolio");
+                    connection.Open();
+                    string query = $"SELECT users.email, users.name, users.profession, COUNT(projects.id_project) AS project_count FROM users " +
+                        $" LEFT JOIN projects ON users.email = projects.email GROUP BY users.email, users.name, users.profession;";
+                    MySqlCommand command = new MySqlCommand(query, connection);
+                    MySqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        string email = reader.GetString(0);
+                        string name = reader.GetString(1);
+                        string profession = reader.GetString(2);
+                        string amount = reader.GetString(3);
+                        <tr>
+                            <td>@email</td>
+                            <td>@name</td>
+                            <td>@profession</td>
+                            <td>@amount</td>
+                            <td style="display: none;"><input type="hidden" name="selectedIndices" value="@email" /></td>
+                            <td>
+                                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal" onclick="openConfirmationModal('@email')">Удалить</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <script>function openConfirmationModal(email) {
+            console.log("openConfirmationModal called with email:", email);
+            document.getElementById('emailToDelete').value = email;
+            $('#confirmDeleteModal').modal('show');
+        }</script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+
+
